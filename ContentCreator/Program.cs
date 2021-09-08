@@ -86,7 +86,7 @@ namespace ContentCreator
 
         private static void CreateRandomEvent()
         {
-            var numberOfSports = ConfigurationLoader.GetNumberOfSports();
+            var numberOfSports = ConfigurationLoader.GetTotalNumberOfSportsLoaded();
             var randomSport = new Random().Next(1, numberOfSports).ToString();
 
             var sportConfiguration = ConfigurationLoader.GetSportConfiguration(randomSport);

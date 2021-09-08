@@ -299,7 +299,7 @@ namespace ContentCreator.Configuration
             return returnElement;
         }
 
-        public static int GetNumberOfSports()
+        public static int GetTotalNumberOfSportsLoaded()
         {
             return _sportConfiguration.Count();
         }
