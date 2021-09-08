@@ -267,10 +267,6 @@ namespace ContentCreator.Configuration
                 }
             }
 
-            // Add selection configuration to market configuration element.
-            //SelectionPatternElement selectionPattern = ConfigurationLoader.GetSelectionPatternConfiguration(marketConfiguration.SelectionPatternId);
-            //marketConfiguration.SelectionConfigurationElement = selectionPattern;
-
             return marketConfiguration;
         }
 
