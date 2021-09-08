@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Sports>
+	<!-- Sports are identified by event.eventDescriptor.subclassId -->
+	<Sport BetradarSportID="1"	    IDEVSport="FBL" EventStructureTypeId="MF" EventPatternName="$Home$ vs $Away$" PeriodPattern="HT" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="2"	    IDEVSport="BKB" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="3"	    IDEVSport="BSB" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="4"	    IDEVSport="HKY" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="5"	    IDEVSport="TNS" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="6"	    IDEVSport="HBL" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="7"	    IDEVSport="FLR" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="8"      IDEVSport="TRT" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="9"  	IDEVSport="GLF" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="10" 	IDEVSport="BOX" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="11" 	IDEVSport="MSP" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="12" 	IDEVSport="RBU" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="13" 	IDEVSport="AFL" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="14" 	IDEVSport="WIN" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="15" 	IDEVSport="BAN" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="16" 	IDEVSport="UFB" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="17" 	IDEVSport="CYC" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="18"     IDEVSport="SPE" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="19" 	IDEVSport="SNK" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="20" 	IDEVSport="TBT" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="21" 	IDEVSport="CRK" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="22" 	IDEVSport="DAR" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="23" 	IDEVSport="VBL" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="24" 	IDEVSport="FKY" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="25" 	IDEVSport="POL" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="26" 	IDEVSport="WAT" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="27" 	IDEVSport="GAA" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="28" 	IDEVSport="CUR" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="29" 	IDEVSport="FSL" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="30" 	IDEVSport="OLY" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="31" 	IDEVSport="BAD" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="32" 	IDEVSport="BOW" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="34" 	IDEVSport="BVB" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="36" 	IDEVSport="ATL" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="37" 	IDEVSport="SQU" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="38" 	IDEVSport="RHK" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="39"     IDEVSport="LAC" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="40"     IDEVSport="FO1" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="43" 	IDEVSport="WAS" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="44" 	IDEVSport="WBI" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="45" 	IDEVSport="WBO" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="46" 	IDEVSport="WCC" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="47" 	IDEVSport="WNC" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="48" 	IDEVSport="WSJ" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="49" 	IDEVSport="WSN" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="50" 	IDEVSport="WSS" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="51" 	IDEVSport="WLU" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="52" 	IDEVSport="SWM" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="54"  	IDEVSport="SOF" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="55" 	IDEVSport="HRR" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="58" 	IDEVSport="DGR" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="59" 	IDEVSport="RBL" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="60" 	IDEVSport="BSC" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="61" 	IDEVSport="PES" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="64" 	IDEVSport="ROW" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="72" 	IDEVSport="CAN" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="75" 	IDEVSport="ARC" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="76" 	IDEVSport="EQU" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="77"     IDEVSport="FEN" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="78" 	IDEVSport="GYM" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="79" 	IDEVSport="JUD" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="80" 	IDEVSport="MPT" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="81" 	IDEVSport="SNG" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="82" 	IDEVSport="SHT" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="83" 	IDEVSport="TAE" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="84" 	IDEVSport="TRI" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="85" 	IDEVSport="WLT" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="86" 	IDEVSport="WRE" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="88"  	IDEVSport="MBK" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="90"  	IDEVSport="SUR" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="92"  	IDEVSport="CSL" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="93"  	IDEVSport="RGY" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="94"  	IDEVSport="TGY" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="95" 	IDEVSport="SSW" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="96" 	IDEVSport="DIV" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="97"  	IDEVSport="TCY" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="102"    IDEVSport="WFS" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="103"	IDEVSport="WFR" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="104"	IDEVSport="WSK" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="105"	IDEVSport="WST" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="108"    IDEVSport="NUM" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="109"	IDEVSport="CST" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="110"	IDEVSport="LOL" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="111"	IDEVSport="DOT" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="112"	IDEVSport="STC" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="113"	IDEVSport="HTS" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="114"	IDEVSport="HOS" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="115"	IDEVSport="WOT" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="117"	IDEVSport="MMA" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="118"	IDEVSport="COD" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="119"	IDEVSport="SMT" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="121"	IDEVSport="OVW" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="122"	IDEVSport="WOW" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="127"	IDEVSport="STF" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="129"    IDEVSport="IRC" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="131"    IDEVSport="SPW" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="137"    IDEVSport="EFL" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="140"    IDEVSport="PUB" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="142"    IDEVSport="FOE" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="148"    IDEVSport="SCR" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="153"	IDEVSport="N2K" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="155"    IDEVSport="BK3" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="179" 	IDEVSport="BMF" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="180" 	IDEVSport="BMR" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="181" 	IDEVSport="KAR" EventStructureTypeId=""   EventPatternName="$Home$ vs $Away$" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="182" 	IDEVSport="MSW" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="183" 	IDEVSport="SKB" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="184" 	IDEVSport="SCL" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="190"    IDEVSport="MCR" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+	<Sport BetradarSportID="191"    IDEVSport="SCR" EventStructureTypeId=""   EventPatternName="" PeriodPattern="" CompetitionOrgMethodId="" StoreEventResults="true" />
+
+
+</Sports>

@@ -36,11 +36,11 @@
     <Reference Include="Finsoft.Data, Version=3.0.0.1, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Finsoft.Data.3.0.0.1\lib\net451\Finsoft.Data.dll</HintPath>
     </Reference>
-    <Reference Include="Finsoft.Evenue.Odi, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Finsoft.Evenue.Odi.3.0.0.0\lib\net451\Finsoft.Evenue.Odi.dll</HintPath>
+    <Reference Include="Finsoft.Evenue.Odi, Version=2.10.1.1, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Finsoft.Evenue.Odi.2.10.1.1\lib\net451\Finsoft.Evenue.Odi.dll</HintPath>
     </Reference>
-    <Reference Include="Finsoft.Utilities, Version=3.0.0.1, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Finsoft.Utilities.3.0.0.1\lib\net451\Finsoft.Utilities.dll</HintPath>
+    <Reference Include="Finsoft.Utilities, Version=3.1.0.2, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Finsoft.Utilities.3.1.0.2\lib\net451\Finsoft.Utilities.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.5.452, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
       <HintPath>..\packages\ICSharpCode.SharpZipLib.0.85.5.452\lib\ICSharpCode.SharpZipLib.dll</HintPath>
@@ -64,12 +64,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Builders\EventBuilder.cs" />
+    <Compile Include="Builders\MarketBuilder.cs" />
+    <Compile Include="Common\Constants.cs" />
+    <Compile Include="Configuration\ConfigurationLoader.cs" />
+    <Compile Include="Configuration\MarketElement.cs" />
+    <Compile Include="Configuration\SportConfiguration.cs" />
+    <Compile Include="Persistor\PersistorService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Finsoft.Evenue.Odi.hashes" />
+    <None Include="Finsoft.Utilities.hashes" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Configuration\Markets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Configuration\Sports.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

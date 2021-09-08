@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+	<Markets>
+		<Market providerMarketId="1" name="1x2" evMarketTypeId="1" selectionPatternId="1" groups="all|score|regular_play" suspendOnDeactivated="true">
+			<MarketAttribute name="NUMSELECTIONS" value="3" />
+			<MarketAttribute name="CATEGORIES" value="HAD" />
+			<Sport evSportId="AFL" prematchOrder="1000" liveOddsOrder="1000" />
+			<Sport evSportId="BAN" prematchOrder="1000" liveOddsOrder="1000" />
+			<Sport evSportId="BKB" prematchOrder="2" liveOddsOrder="2" />
+			<Sport evSportId="BOX" prematchOrder="2" liveOddsOrder="2" />
+			<Sport evSportId="BSB" prematchOrder="1" liveOddsOrder="1" />
+			<Sport evSportId="BSC" prematchOrder="1000" liveOddsOrder="1000" />
+			<Sport evSportId="CST" prematchOrder="1" liveOddsOrder="1" />
+			<Sport evSportId="DAR" prematchOrder="1000" liveOddsOrder="1000" />
+			<Sport evSportId="DOT" prematchOrder="1" liveOddsOrder="1" />
+			<Sport evSportId="FBL" prematchOrder="1" liveOddsOrder="1" />
+			<Sport evSportId="FKY" prematchOrder="1" liveOddsOrder="1" />
+			<Sport evSportId="FLR" prematchOrder="1000" liveOddsOrder="1000" />
+			<Sport evSportId="FSL" prematchOrder="1000" liveOddsOrder="1000" />
+			<Sport evSportId="HBL" prematchOrder="1" liveOddsOrder="1" />
+			<Sport evSportId="HKY" prematchOrder="1" liveOddsOrder="1" />
+			<Sport evSportId="LOL" prematchOrder="1" liveOddsOrder="1" />
+			<Sport evSportId="MMA" prematchOrder="1000" liveOddsOrder="1000" />
+			<Sport evSportId="PES" prematchOrder="1000" liveOddsOrder="1000" />
+			<Sport evSportId="RBL" prematchOrder="1" liveOddsOrder="1" />
+			<Sport evSportId="RBU" prematchOrder="1" liveOddsOrder="1" />
+			<Sport evSportId="RBY" prematchOrder="1000" liveOddsOrder="1000" />
+			<Sport evSportId="SNK" prematchOrder="2" liveOddsOrder="2" />
+			<Sport evSportId="UFB" prematchOrder="2" liveOddsOrder="2" />
+			<Sport evSportId="WAT" prematchOrder="1" liveOddsOrder="1" />
+			<Sport evSportId="BK3" prematchOrder="1" liveOddsOrder="1" />
+		</Market>
+		<Market providerMarketId="201" name="Double Result (1st Set/Match)" evMarketTypeId="202" selectionPatternId="38" groups="all|score|regular_play">
+			<MarketAttribute name="NUMSELECTIONS" value="4" />
+			<Sport evSportId="TNS" prematchOrder="37" liveOddsOrder="36" />
+		</Market>
+	</Markets>
+</Config>
