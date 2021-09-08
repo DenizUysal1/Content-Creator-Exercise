@@ -78,7 +78,7 @@ namespace ContentCreator
             evnt.WeatherForecast = "Mostly sunny...";
 
             var evntDelta = EventBuilder.CreateEvent(evnt);
-            var market = MarketBuilder.CreateMarket(evntDelta, "1");
+            var market = MarketBuilder.CreateMarket(evntDelta, "201");
 
             PersistorService.SaveEvent(evntDelta);
             PersistorService.SaveMarket(market);
