@@ -16,16 +16,13 @@ namespace ContentCreator.Builders
 
             var marketConfiguration = ConfigurationLoader.GetMarketConfiguration(providerMarketId);
 
-            MarketDelta market = new MarketDelta("FS" /* DataSourceId */, "Market1Test"/* CdsId */);
+            MarketDelta market = new MarketDelta("FS" /* DataSourceId */, $"Market Test {evnt.SportId}"/* CdsId */);
             market.Name = marketConfiguration.Name;
-            market.MarketTypeId = marketConfiguration.EvMarketTypeId; // “football outright”
-            market.EventRef = evnt; // or: market1.EventRef =  Event.CreateReference("FS", "Event1");
-            market.MarketLifeStateId = "NE"; // “new” – i.e. not open for betting yet
-            //market1.MaxWinners = 1;
-
+            market.MarketTypeId = marketConfiguration.EvMarketTypeId; 
+            market.EventRef = evnt;
+            market.MarketLifeStateId = "NE";
 
             return market;
-            //PersistorService.ApplyToDb(market1);
         }
     }
 }

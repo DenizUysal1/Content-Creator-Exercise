@@ -1,4 +1,5 @@
 ﻿using ContentCreator.Common;
+using log4net;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -12,8 +13,10 @@ namespace ContentCreator.Configuration
 {
     public static class ConfigurationLoader
     {
-        public static Dictionary<string, SportConfiguration> _sportConfiguration;
-        public static Dictionary<string, Dictionary<string, MarketElement>> _marketConfiguration;
+        private static readonly ILog log = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+
+        private static Dictionary<string, SportConfiguration> _sportConfiguration;
+        private static Dictionary<string, Dictionary<string, MarketElement>> _marketConfiguration;
 
         static ConfigurationLoader()
         {
@@ -30,7 +33,7 @@ namespace ContentCreator.Configuration
 
             try
             {
-                //log.InfoFormat("Loading sports configuration from {0}", configurationPath);
+                log.InfoFormat("Loading sports configuration from {0}", configurationPath);
 
                 XmlDocument document = new XmlDocument();
                 document.Load(configurationPath);
@@ -50,20 +53,15 @@ namespace ContentCreator.Configuration
 
                     _sportConfiguration[sportConf.BetradarSportID] = sportConf;
 
-                    //log.DebugFormat("Loaded sport BetradarSportID:'{0}' IDEVSport:'{1}' EventStructureTypeId:'{2}' EventPatternName:'{3}'", sportConf.BetradarSportID, sportConf.IdEvSport, sportConf.EventStructureTypeId, sportConf.EventPatternName);
+                    log.DebugFormat("Loaded sport BetradarSportID:'{0}' IDEVSport:'{1}' EventStructureTypeId:'{2}' EventPatternName:'{3}'", sportConf.BetradarSportID, sportConf.IdEvSport, sportConf.EventStructureTypeId, sportConf.EventPatternName);
                 }
 
-                //log.InfoFormat("Loaded {0} sport configurations.", _sportConfiguration.Count);
+                log.InfoFormat("Loaded {0} sport configurations.", _sportConfiguration.Count);
             }
             catch (Exception ex)
             {
-                //log.ErrorFormat("Could not load sports configuration from location {0}\n{1}", configurationPath, ex);
+                log.ErrorFormat("Could not load sports configuration from location {0}\n{1}", configurationPath, ex);
             }
-        }
-
-        public static void Test()
-        {
-            
         }
 
         private static void LoadMarketsConfiguration(string configurationPath )
@@ -220,7 +218,7 @@ namespace ContentCreator.Configuration
                 }
                 catch (Exception exc)
                 {
-                    //log.ErrorFormat("Error load market configuration for {0}: \n{1}", providerMarketId, exc);
+                    log.ErrorFormat("Error load market configuration for {0}: \n{1}", providerMarketId, exc);
                     //throw;
                 }
             }
@@ -281,7 +279,7 @@ namespace ContentCreator.Configuration
             SportConfiguration sportConfiguration = null;
             if (!_sportConfiguration.TryGetValue(betradarSportID, out sportConfiguration))
             {
-                //log.WarnFormat(string.Format("There is no sport configuration for BetradarSportID={0}", betradarSportID));
+                log.WarnFormat(string.Format("There is no sport configuration for BetradarSportID={0}", betradarSportID));
             }
 
             return sportConfiguration;
@@ -299,10 +297,15 @@ namespace ContentCreator.Configuration
             }
             else
             {
-                //log.DebugFormat("There is no market configuration with providerMarketId={0}", providerMarketId);
+                log.DebugFormat("There is no market configuration with providerMarketId={0}", providerMarketId);
             }
 
             return returnElement;
+        }
+
+        public static int GetNumberOfSports()
+        {
+            return _sportConfiguration.Count();
         }
     }
 }
