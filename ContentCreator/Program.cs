@@ -55,8 +55,30 @@ namespace ContentCreator
             var evntDelta = EventBuilder.CreateEvent(evnt);
             var market = MarketBuilder.CreateMarket(evntDelta, "1");
 
+            SelectionDelta selection1 = new SelectionDelta("FS", market.CdsId, "H");
+            selection1.HadValueId = "H";
+            selection1.Name = "Nadal";
+            selection1.SelectionTypeId = "P"; // i.e. “participant”
+            selection1.SelectionStatusId = "T";
+            //selection1.CompetitorRef = competitor1; // or: = EventCompetitor.CreateReference("FS", "Event1", "1");
+            market.Selections.Add(selection1);
+
+            PriceSetDelta priceSet = new PriceSetDelta("FS" /* DataSourceId */,"PriceSet1Test" /* CdsId */);
+            priceSet.MarketRef = market;
+            priceSet.PriceTypeId = "F"; // “fixed”
+            priceSet.PriceStyleId = "F"; // “fraction”
+
+            SelectionPriceDelta price1 = new SelectionPriceDelta("FS", "PriceSet1Test", "1");
+            price1.PriceMultiplicator = 11;
+            price1.PriceQuotient = 4;
+            price1.PriceStatusId = "C"; // “current”
+            price1.SelectionRef = selection1; // or: =  Selection.CreateReference("FS", "Market1", "H");
+            priceSet.SelectionPrices.Add(price1);
+
+
             PersistorService.SaveEvent(evntDelta);
             PersistorService.SaveMarket(market);
+            PersistorService.SavePriceSet(priceSet);
         }
 
         private static void CreateVolleyballEvent()
@@ -80,16 +102,37 @@ namespace ContentCreator
             var evntDelta = EventBuilder.CreateEvent(evnt);
             var market = MarketBuilder.CreateMarket(evntDelta, "201");
 
+            SelectionDelta selection1 = new SelectionDelta("FS", market.CdsId, "H");
+            selection1.HadValueId = "H";
+            selection1.Name = "Francia";
+            selection1.SelectionTypeId = "P";
+            selection1.SelectionStatusId = "T";
+            market.Selections.Add(selection1);
+
+            PriceSetDelta priceSet = new PriceSetDelta("FS" /* DataSourceId */, "PriceSet1TestVolleyball" /* CdsId */);
+            priceSet.MarketRef = market;
+            priceSet.PriceTypeId = "F"; // “fixed”
+            priceSet.PriceStyleId = "D"; // “fraction”
+
+            SelectionPriceDelta price1 = new SelectionPriceDelta("FS", "PriceSet1TestVolleyball", "1");
+            price1.PriceMultiplicator = 5;
+            price1.PriceQuotient = 10;
+            price1.PriceStatusId = "C"; 
+            price1.SelectionRef = selection1;
+            priceSet.SelectionPrices.Add(price1);
+
             PersistorService.SaveEvent(evntDelta);
             PersistorService.SaveMarket(market);
+            PersistorService.SavePriceSet(priceSet);
         }
 
         private static void CreateRandomEvent()
         {
+            var random = new Random();
             var numberOfSports = ConfigurationLoader.GetTotalNumberOfSportsLoaded();
-            var randomSport = new Random().Next(1, numberOfSports).ToString();
+            var randomSportId = random.Next(1, numberOfSports).ToString();
 
-            var sportConfiguration = ConfigurationLoader.GetSportConfiguration(randomSport);
+            var sportConfiguration = ConfigurationLoader.GetSportConfiguration(randomSportId);
             var cdsId = $"EventTest {sportConfiguration.IdEvSport}";
 
             Event evnt = new Event("FS" /* DataSourceId */, cdsId /* CdsId */);
@@ -108,8 +151,28 @@ namespace ContentCreator
             var evntDelta = EventBuilder.CreateEvent(evnt);
             var market = MarketBuilder.CreateMarket(evntDelta, "1");
 
+            SelectionDelta selection1 = new SelectionDelta("FS", market.CdsId, "H");
+            selection1.HadValueId = "H";
+            selection1.Name = "Random Team";
+            selection1.SelectionTypeId = "P";
+            selection1.SelectionStatusId = "T";
+            market.Selections.Add(selection1);
+
+            PriceSetDelta priceSet = new PriceSetDelta("FS", $"PriceSet1Test{sportConfiguration.IdEvSport}");
+            priceSet.MarketRef = market;
+            priceSet.PriceTypeId = "F"; // “fixed”
+            priceSet.PriceStyleId = "D"; // “fraction”
+
+            SelectionPriceDelta price1 = new SelectionPriceDelta("FS", $"PriceSet1Test{sportConfiguration.IdEvSport}", "1");
+            price1.PriceMultiplicator = random.Next(1,50);
+            price1.PriceQuotient = random.Next(1,10);
+            price1.PriceStatusId = "C";
+            price1.SelectionRef = selection1;
+            priceSet.SelectionPrices.Add(price1);
+
             PersistorService.SaveEvent(evntDelta);
             PersistorService.SaveMarket(market);
+            PersistorService.SavePriceSet(priceSet);
         }
 
         

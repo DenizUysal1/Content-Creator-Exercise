@@ -35,6 +35,12 @@ namespace ContentCreator.Persistor
             log.InfoFormat($"Market {market.Name} for Event {market.EventRef.CdsId} saved to DDBB ");
         }
 
+        public static void SavePriceSet(PriceSetDelta priceSet)
+        {
+            PersistorService.ApplyToDb(priceSet);
+            log.InfoFormat($"Priceset {priceSet.CdsId}  saved to DDBB ");
+        }
+
         private static void ApplyToDb(CdsDelta item)
         {
             _oDictService.ApplyCdsDelta(item);
